@@ -3,6 +3,7 @@ import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
+import sendEmail from './send-email';
 import { makeStyles } from '@material-ui/core/styles';
 import {
     FaTwitter,
@@ -38,6 +39,19 @@ function Contacts() {
     const [errMsg, setErrMsg] = useState('');
 
     const { theme } = useContext(ThemeContext);
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        const name = e.target.elements.name.value;
+        const email = e.target.elements.email.value;
+        const message = e.target.elements.message.value;
+
+        // send an email
+        sendEmail('passiondragon0413@gmail.com', `Message from ${name} (${email})`, message);
+
+        // reset the form
+        e.target.reset();
+    }
 
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
@@ -134,22 +148,25 @@ function Contacts() {
 
         if (name && email && message) {
             if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
-                };
+                // const responseData = {
+                //     name: name,
+                //     email: email,
+                //     message: message,
+                // };
+                sendEmail('passiondragon0413@gmail.com', `Message from ${name} (${email})`, message);
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
+                // reset the form
+                e.target.reset();
+                // axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                //     console.log('success');
+                //     setSuccess(true);
+                //     setErrMsg('');
 
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
-                });
+                //     setName('');
+                //     setEmail('');
+                //     setMessage('');
+                //     setOpen(false);
+                // });
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);

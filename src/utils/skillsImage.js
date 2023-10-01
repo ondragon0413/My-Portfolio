@@ -74,6 +74,13 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import laravel from '../assets/svg/skills/laravel.png'
+import socketio from '../assets/svg/skills/socket.jpg'
+import restful from '../assets/svg/skills/restfulapi.png'
+import node from '../assets/svg/skills/node.png'
+import express from '../assets/svg/skills/express.png'
+import reactnative from '../assets/svg/skills/reactnative.svg'
+import objective_c from '../assets/svg/skills/objective-c.png'
 
 
 export const skillsImage = (skill) => {
@@ -81,6 +88,16 @@ export const skillsImage = (skill) => {
     switch (skillID) {
         case 'gcp':
             return gcp;
+        case 'laravel':
+            return laravel;
+        case 'express':
+            return express;
+        case 'node':
+            return node;
+        case 'restful api':
+            return restful;
+        case 'socket.io':
+            return socketio;
         case 'html':
             return html;
         case 'photoshop':
@@ -227,6 +244,10 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'react native':
+            return reactnative;
+        case 'objective-c':
+            return objective_c;
         default:
             break;
     }

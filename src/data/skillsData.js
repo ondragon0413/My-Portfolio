@@ -1,13 +1,35 @@
- export const skillsData = [
-    'HTML',
-    'Fastify',
-    'Blender',
-    'Figma',
-    'Javascript',
-    'CSS',
-    'React',
-    'Django',
-]
+export const skillsData = {
+    frontend: [
+        'HTML',
+        'CSS',
+        'Figma',
+        'WordPress',
+        'Javascript',
+        'TypeScript',
+        'React',
+        'Next js',
+        'Vue',
+        'Angular',
+        'Nuxt js',
+        'React Native',
+        'Kotlin',
+        'Swift',
+        'Objective-c',
+    ],
+    backend: [
+        'Node',
+        'Express',
+        'Django',
+        'PHP',
+        'Laravel',
+        'RESTful API',
+        'Socket.io',
+        'MySQL',
+        'MongoDB',
+    ]
+
+}
+
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new

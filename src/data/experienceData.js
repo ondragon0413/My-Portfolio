@@ -1,23 +1,42 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'Cloudester',
+        jobtitle: 'React Engineer',
+        location: 'New York, NY, US',
+        startYear: '03/2015',
+        endYear: '04/2017'
     },
     {
         id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
-        startYear: '2019',
-        endYear: '2020'
+        company: 'Admios',
+        jobtitle: 'Senior React Engineer(part-time)',
+        location: 'San Fransisco, CA,US',
+        startYear: '07/2016',
+        endYear: '06/2018'
     },
     {
         id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
-        endYear: 'Present'
+        company: 'Codal',
+        jobtitle: 'Senior Frontend Engineer (contract)',
+        location: 'Chicago, IL, US',
+        startYear: '05/2017',
+        endYear: '05/2019'
+    },
+    {
+        id: 4,
+        company: 'Messapps',
+        jobtitle: 'Senior React & React Native Engineer',
+        location: 'New York, NY, US',
+        startYear: '06/2019',
+        endYear: '07/2021'
+    },
+    {
+        id: 5,
+        company: 'TechAvidus',
+        jobtitle: 'Senior Web and Mobile Engineer',
+        location: 'New York, NY, US',
+        startYear: '08/2021',
+        endYear: '08/2023'
     },
 ]
