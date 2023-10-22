@@ -18,6 +18,6 @@ export const educationData = [
         institution: 'Hong Kong University of Science and Technology',
         course: 'Bachelor of science in computer science',
         startYear: '2011',
-        endYear: '2014'
+        endYear: '2015'
     },
 ]

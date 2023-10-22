@@ -3,7 +3,6 @@ export const skillsData = {
         'HTML',
         'CSS',
         'Figma',
-        'WordPress',
         'Javascript',
         'TypeScript',
         'React',
@@ -12,9 +11,6 @@ export const skillsData = {
         'Angular',
         'Nuxt js',
         'React Native',
-        'Kotlin',
-        'Swift',
-        'Objective-c',
     ],
     backend: [
         'Node',
