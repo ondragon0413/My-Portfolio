@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.416db885.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.c3cf13c4.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.c3cf13c4.chunk.js.map",
+    "main.js": "/My-Portfolio/static/js/main.570b9bf6.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.570b9bf6.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.f3910d99.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.f3910d99.js.map",
     "static/css/2.eebbea87.chunk.css": "/My-Portfolio/static/css/2.eebbea87.chunk.css",
@@ -115,7 +115,7 @@
     "static/media/opencv.36d7c202.svg": "/My-Portfolio/static/media/opencv.36d7c202.svg",
     "static/media/orangeTheme-boy.cc7bd962.svg": "/My-Portfolio/static/media/orangeTheme-boy.cc7bd962.svg",
     "static/media/orangeTheme-girl.af6ec93a.svg": "/My-Portfolio/static/media/orangeTheme-girl.af6ec93a.svg",
-    "static/media/photo.2425ddca.png": "/My-Portfolio/static/media/photo.2425ddca.png",
+    "static/media/photo.e8838c06.png": "/My-Portfolio/static/media/photo.e8838c06.png",
     "static/media/photoshop.6576d308.svg": "/My-Portfolio/static/media/photoshop.6576d308.svg",
     "static/media/php.808faf65.svg": "/My-Portfolio/static/media/php.808faf65.svg",
     "static/media/picsart.e849dc91.svg": "/My-Portfolio/static/media/picsart.e849dc91.svg",
@@ -162,6 +162,6 @@
     "static/css/2.eebbea87.chunk.css",
     "static/js/2.54908c22.chunk.js",
     "static/css/main.416db885.chunk.css",
-    "static/js/main.c3cf13c4.chunk.js"
+    "static/js/main.570b9bf6.chunk.js"
   ]
 }
